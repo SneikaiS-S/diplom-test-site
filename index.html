@@ -1,24 +1,81 @@
-База співробітників компанії
-    
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>База співробітників компанії</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            padding: 30px; 
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .header-box {
+            background-color: #d9534f;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .header-box h1 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+        .header-box p {
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+        .employee-card { 
+            background-color: white;
+            border: 1px solid #ddd; 
+            border-left: 5px solid #007bff;
+            border-radius: 5px;
+            padding: 20px; 
+            margin-bottom: 15px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            max-width: 600px;
+        }
+        .employee-card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .employee-card p {
+            margin: 8px 0;
+            font-size: 15px;
+        }
+        /* ТУТ МИ ХОВАЄМО НАШ ТОКЕН ВІД ЛЮДЕЙ */
+        .hidden-trap { 
+            display: none; 
+        } 
+    </style>
+</head>
+<body>
+    <div class="header-box">
+        <h1>Внутрішній портал: Контакти співробітників</h1>
+        <p>УВАГА: Конфіденційна інформація. Тільки для службового використання.</p>
+    </div>
 
+    <div class="employee-card">
+        <h3>Іваненко Петро Олексійович</h3>
+        <p><strong>Посада:</strong> Системний адміністратор</p>
+        <p><strong>Телефон:</strong> +380 50 123 45 67</p>
+        <p><strong>Email:</strong> p.ivanenko@test-corp.com</p>
+    </div>
 
-    Внутрішній портал: Контакти співробітників
-    Конфіденційна інформація. Тільки для службового використання.
+    <div class="employee-card">
+        <h3>Коваленко Анна Вікторівна</h3>
+        <p><strong>Посада:</strong> Головний бухгалтер</p>
+        <p><strong>Телефон:</strong> +380 67 987 65 43</p>
+        <p><strong>Email:</strong> a.kovalenko@test-corp.com</p>
+    </div>
 
-    
-        Іваненко Петро Олексійович
-        Посада: Системний адміністратор
-        Телефон: +380 50 123 45 67
-        Email: p.ivanenko@test-corp.com
-    
-
-    
-        Коваленко Анна Вікторівна
-        Посада: Головний бухгалтер
-        Телефон: +380 67 987 65 43
-        Email: a.kovalenko@test-corp.com
-    
-
-    
-    
-        Службовий архів
+    <!-- МІСЦЕ ДЛЯ ПАСТКИ: Заміни посилання нижче на своє з CanaryTokens -->
+    <div class="hidden-trap">
+        <a href="ТУТ_МАЄ_БУТИ_ТВОЄ_ПОСИЛАННЯ">Службовий архів</a>
+    </div>
+</body>
+</html>
